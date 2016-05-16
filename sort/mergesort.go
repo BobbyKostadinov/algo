@@ -1,9 +1,9 @@
-package mergesort
+package sort
 
 import "math"
 
 // MergeSort entry point
-func Sort(A []int) []int {
+func MergeSort(A []int) []int {
 	if len(A) <= 1 {
 		return A
 	}
